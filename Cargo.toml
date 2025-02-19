@@ -3,5 +3,14 @@ name = "microc"
 version = "0.1.0"
 edition = "2021"
 
+[build-dependencies]
+cfgrammar = "0.13.9"
+lrlex = "0.13.9"
+lrpar = "0.13.9"
+
 [dependencies]
+cfgrammar = "0.13.9"
 clap = { version = "4.5.29", features = ["derive"] }
+lrlex = "0.13.9"
+lrpar = "0.13.9"
+melior = "0.22.0"
