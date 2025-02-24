@@ -10,8 +10,6 @@ lrpar = "0.13.9"
 
 [dependencies]
 cfgrammar = "0.13.9"
-clap = { version = "4.5.30", features = ["derive"] }
+clap = { version = "4.5.31", features = ["derive"] }
 lrlex = "0.13.9"
 lrpar = "0.13.9"
-melior = "0.22.0"
-rand = "0.9.0"
